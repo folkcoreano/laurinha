@@ -36,7 +36,7 @@ const {data} = useFetch("https://api.kanye.rest/text");
 			/>
 			<Meta
 				property="og:image"
-				:content="'https://cdn.statically.io/og/theme=dark/' + data + '.png'"
+				:content="'https://cdn.statically.io/og/' + data + '.png'"
 			/>
 			<Meta
 				property="twitter:card"
@@ -52,7 +52,7 @@ const {data} = useFetch("https://api.kanye.rest/text");
 			/>
 			<Meta
 				property="twitter:image"
-				:content="'https://cdn.statically.io/og/theme=dark/' + data + '.png'"
+				:content="'https://cdn.statically.io/og/' + data + '.png'"
 			/>
 		</Head>
 		<i class="quote">
