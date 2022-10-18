@@ -175,6 +175,8 @@ q {
 	align-items: center;
 	justify-content: center;
 	max-width: 50rem;
+	padding: 1rem;
+	text-align: center;
 }
 
 .back {
